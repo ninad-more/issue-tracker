@@ -1,10 +1,13 @@
-import "./App.css";
-import Welcome from "./components/Welcome";
+import "./style.css";
+import TicketForm from "./components/TicketForm";
 
 function App() {
   return (
-    <div>
-      <Welcome />
+    <div className="App">
+      <div className="container">
+        <h1>Issue Tracker</h1>
+        <TicketForm />
+      </div>
     </div>
   );
 }
